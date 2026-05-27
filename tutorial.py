@@ -77,7 +77,7 @@ class StopwatchApp(App):
         new_stopwatch.scroll_visible()
 
     def action_remove_stopwatch(self) -> None:
-        timers = self.query("Stoppwatch")
+        timers = self.query("Stopwatch")
         if timers:
             timers.last().remove()
 
